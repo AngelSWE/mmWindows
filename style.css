@@ -11,12 +11,17 @@ body {
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1599458441099-b38d7463f4eb');
-    background-size: cover;
-    background-position: center;
-    color: white;
+    color: #004aad;
     text-align: center;
-    padding: 100px 20px;
+    padding: 5px;
+    z-index: 1;
+
+}
+
+header img {
+    background-size: contain;
+    height: 45vh;
+    width: 150vh;
 }
 
 header h1 {
